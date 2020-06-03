@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "reactnd-mobile-flashcards-app",
-    "slug": "reactnd-mobile-flashcards-app",
+    "name": "mobile-flashcards-app",
+    "slug": "mobile-flashcards-app",
     "platforms": [
       "ios",
       "android",
@@ -23,6 +23,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "Mobile application that allows users to study collections of flashcards. The app will allow users to create different categories of flashcards called \"decks\", add flashcards to those decks, then take quizzes on those decks",
+    "githubUrl": "https://github.com/obeshor/reactnd-mobile-flashcards-app"
   }
 }

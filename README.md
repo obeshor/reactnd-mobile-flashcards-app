@@ -4,7 +4,7 @@ Mobile application that allows users to study collections of flashcards. The app
 
 It uses React Native, Expo, Redux, & React Navigation.
 
-- Live Demo: [Mobile Flashcards on Expo](https://expo.io/@obeshor/mobile-flashcards)
+- Live Demo: [Mobile Flashcards on Expo](https://expo.io/@obeshor/mobile-flashcards-app)
 
 ## Installation
 
@@ -46,5 +46,4 @@ This will open Expo Developer Tools in the browser. You can then do one of the f
 
 This project has been tested on the following platforms:
 
-- iOS 13+
-- Android 9+.
+- Android 8+.
