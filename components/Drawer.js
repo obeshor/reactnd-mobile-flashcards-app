@@ -7,7 +7,7 @@ const Sidebar = (props) => (
 	<View style={styles.container}>
 		<ScrollView>
 			<View style={styles.container}>
-				<Drawer.Section title="Menu">
+				<Drawer.Section >
 					<DrawerNavigatorItems {...props} />
 				</Drawer.Section>
 			</View>
@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
 	head: {
 		padding: 14,
 		paddingTop: 35,
-		backgroundColor: Colors.indigo400,
+		backgroundColor: Colors.red100,
 	},
 });
 

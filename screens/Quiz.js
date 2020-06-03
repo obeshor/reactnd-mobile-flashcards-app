@@ -218,7 +218,6 @@ class Quiz extends React.Component {
 
 function mapStateToProps({ decks }, props) {
 	const { deckId } = props.navigation.state.params;
-	// console.log(JSON.stringify(decks));
 	return {
 		deck: decks[deckId],
 	};

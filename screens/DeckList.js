@@ -41,7 +41,7 @@ class DeckList extends React.Component {
 										<Avatar.Icon
 											{...props}
 											style={styles.avatarIcon}
-											icon="folder"
+											icon="book"
 											color={Colors.white}
 										/>
 									)}
@@ -67,13 +67,14 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: "#FFF",
+		
 	},
 	fab: {
 		position: "absolute",
 		margin: 16,
 		right: 0,
 		bottom: 0,
-		backgroundColor: Colors.purple900,
+		backgroundColor: '#009688',
 	},
 	text: {
 		color: "#fff",
@@ -81,11 +82,11 @@ const styles = StyleSheet.create({
 		fontWeight: "500",
 	},
 	avatarIcon: {
-		backgroundColor: Colors.orange500,
+		backgroundColor: Colors.orange100,
 	},
 	avatarText: {
 		marginRight: 16,
-		backgroundColor: Colors.orange100,
+		backgroundColor: Colors.red100,
 	},
 });
 

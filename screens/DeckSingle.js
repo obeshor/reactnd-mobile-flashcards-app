@@ -83,6 +83,7 @@ const styles = StyleSheet.create({
 		alignSelf: "center",
 		alignItems: "center",
 		justifyContent: "center",
+		borderRadius: 10,
 	},
 	buttonDeleteDeckLabel: {
 		color: Colors.red500,
