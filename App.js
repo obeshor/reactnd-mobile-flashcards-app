@@ -10,6 +10,9 @@ export default function App() {
 	return (
 		<StoreProvider store={store}>
 			<PaperProvider theme={theme}>
+				{/* <View style={styles.container}>
+					<Text>Open up App.tsx to start working on your app!</Text>
+				</View> */}
 				<Router />
 			</PaperProvider>
 		</StoreProvider>
